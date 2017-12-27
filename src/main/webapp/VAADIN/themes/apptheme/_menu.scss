@@ -59,13 +59,13 @@
     }
     @if $app-background-gradient {
       // apply gradient, if configured
-      .ynavigation-bar-container {
+      .navigation-bar-container {
         background-image: $app-background-gradient;
       }
-      .ynavigation-bar {
+      .navigation-bar {
         background-color: transparent;
       }
-      .ynavigation {
+      .navigation {
         background-color: transparent;
         border: none;
       }

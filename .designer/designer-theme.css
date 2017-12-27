@@ -1551,7 +1551,7 @@ div.v-layout.v-horizontal.v-widget {
 	z-index: 10000;
 }
 
-.app-shell .logo {
+.app-shell .logo, .app-shell  .v-caption-logo {
 	color: #b4b4c8;
 	text-align: center;
 	padding: 18.5px 9.25px;
@@ -1647,7 +1647,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: 80px !important;
 }
 
-.app-shell[width-range~="601px-1000px"] .navigation-bar-container .logo {
+.app-shell[width-range~="601px-1000px"] .navigation-bar-container .logo, .app-shell[width-range~="601px-1000px"] .navigation-bar-container  .v-caption-logo {
 	font-size: 12px;
 }
 
@@ -1708,7 +1708,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 37px !important;
 }
 
-.app-shell[width-range~="-600px"] .logo {
+.app-shell[width-range~="-600px"] .logo, .app-shell[width-range~="-600px"]  .v-caption-logo {
 	line-height: 37px;
 	width: auto !important;
 	float: left;
@@ -6218,7 +6218,7 @@ div.v-layout.v-horizontal.v-widget {
 	font-size: 14px;
 }
 
-.apptheme .v-datefield-popup td.v-datefield-calendarpanel-time .v-label {
+.apptheme .v-datefield-popup td.v-datefield-calendarpanel-time .v-label, .apptheme .v-datefield-popup td.v-datefield-calendarpanel-time  .v-caption-logo {
 	display: inline;
 	margin: 0 0.1em;
 	font-weight: 400;
@@ -6403,7 +6403,7 @@ div.v-layout.v-horizontal.v-widget {
 	font-size: 14px;
 }
 
-.apptheme td.v-datefield-calendarpanel-time .v-label {
+.apptheme td.v-datefield-calendarpanel-time .v-label, .apptheme td.v-datefield-calendarpanel-time  .v-caption-logo {
 	display: inline;
 	margin: 0 0.1em;
 	font-weight: 400;
@@ -7058,7 +7058,7 @@ div.v-layout.v-horizontal.v-widget {
 	font-size: 14px;
 }
 
-.apptheme td.v-inline-datefield-calendarpanel-time .v-label {
+.apptheme td.v-inline-datefield-calendarpanel-time .v-label, .apptheme td.v-inline-datefield-calendarpanel-time  .v-caption-logo {
 	display: inline;
 	margin: 0 0.1em;
 	font-weight: 400;
@@ -8601,7 +8601,7 @@ div.v-layout.v-horizontal.v-widget {
 	vertical-align: top;
 }
 
-.apptheme .v-window-top-toolbar .v-label, .apptheme .v-window-bottom-toolbar .v-label {
+.apptheme .v-window-top-toolbar .v-label, .apptheme .v-window-top-toolbar  .v-caption-logo, .apptheme .v-window-bottom-toolbar .v-label, .apptheme .v-window-bottom-toolbar  .v-caption-logo {
 	line-height: 36px;
 }
 
@@ -8903,7 +8903,7 @@ div.v-layout.v-horizontal.v-widget {
 	margin: 3px -6px;
 }
 
-.apptheme .v-table-cell-wrapper  > .v-widget.v-label, .apptheme .v-table-cell-wrapper  > .v-widget.v-checkbox, .apptheme .v-table-cell-wrapper  > .v-widget.v-select-optiongroup {
+.apptheme .v-table-cell-wrapper  > .v-widget.v-label, .apptheme .v-table-cell-wrapper  > .apptheme .app-shell .v-widget.v-caption-logo, .apptheme .v-table-cell-wrapper  > .v-widget.v-checkbox, .apptheme .v-table-cell-wrapper  > .v-widget.v-select-optiongroup {
 	margin: 0;
 }
 
@@ -9289,7 +9289,7 @@ div.v-layout.v-horizontal.v-widget {
 	margin: 2px -3px;
 }
 
-.apptheme .v-table-compact .v-table-cell-wrapper  > .v-widget.v-label, .apptheme .v-table-compact .v-table-cell-wrapper  > .v-widget.v-checkbox, .apptheme .v-table-compact .v-table-cell-wrapper  > .v-widget.v-select-optiongroup, .apptheme .v-table-small .v-table-cell-wrapper  > .v-widget.v-label, .apptheme .v-table-small .v-table-cell-wrapper  > .v-widget.v-checkbox, .apptheme .v-table-small .v-table-cell-wrapper  > .v-widget.v-select-optiongroup {
+.apptheme .v-table-compact .v-table-cell-wrapper  > .v-widget.v-label, .apptheme .v-table-compact .v-table-cell-wrapper  > .apptheme .app-shell .v-widget.v-caption-logo, .apptheme .v-table-compact .v-table-cell-wrapper  > .v-widget.v-checkbox, .apptheme .v-table-compact .v-table-cell-wrapper  > .v-widget.v-select-optiongroup, .apptheme .v-table-small .v-table-cell-wrapper  > .v-widget.v-label, .apptheme .v-table-small .v-table-cell-wrapper  > .apptheme .app-shell .v-widget.v-caption-logo, .apptheme .v-table-small .v-table-cell-wrapper  > .v-widget.v-checkbox, .apptheme .v-table-small .v-table-cell-wrapper  > .v-widget.v-select-optiongroup {
 	margin: 0;
 }
 
@@ -10535,7 +10535,7 @@ div.v-layout.v-horizontal.v-widget {
 	vertical-align: middle;
 }
 
-.apptheme .v-panel-caption.v-horizontallayout .v-label {
+.apptheme .v-panel-caption.v-horizontallayout .v-label, .apptheme .v-panel-caption.v-horizontallayout  .v-caption-logo {
 	line-height: 37px;
 }
 
@@ -11215,14 +11215,14 @@ div.v-layout.v-horizontal.v-widget {
 	cursor: default;
 }
 
-.apptheme .v-label {
+.apptheme .v-label, .apptheme .app-shell .v-caption-logo {
 	-webkit-user-select: text;
 	-moz-user-select: text;
 	-ms-user-select: text;
 	user-select: text;
 }
 
-.apptheme .v-label.v-disabled {
+.apptheme .v-label.v-disabled, .apptheme .apptheme .app-shell .v-disabled.v-caption-logo {
 	opacity: 0.5;
 	filter: alpha(opacity=50) ;
 }
@@ -12929,7 +12929,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0 4px 4px 0;
 }
 
-.apptheme .order-form .product-row .v-label.comment {
+.apptheme .order-form .product-row .v-label.comment, .apptheme .order-form .product-row .apptheme .app-shell .comment.v-caption-logo {
 	font-size: 14px;
 	white-space: pre-wrap;
 	margin-bottom: 0;
@@ -13152,6 +13152,74 @@ div.v-layout.v-horizontal.v-widget {
 	border-width: 1px 0px;
 }
 
+.apptheme .app-shell .logo, .apptheme .app-shell .v-caption-logo {
+	color: #fff;
+	word-wrap: break-word;
+}
+
+.apptheme .app-shell .navigation-bar {
+	color: #b4b4c8;
+	background-size: cover;
+	background-position: top;
+}
+
+.apptheme .app-shell .navigation-bar .v-button {
+	border-radius: 0;
+}
+
+.apptheme .app-shell .navigation-bar .selected {
+	background: rgba(0, 0, 0, 0.2);
+	color: #efeff3;
+}
+
+.apptheme .app-shell .navigation-bar .selected .v-icon, .apptheme .app-shell .navigation-bar .selected .v-button-caption {
+	color: #efeff3;
+}
+
+.apptheme .app-shell .navigation-bar .activeViewName {
+	line-height: 37px;
+	width: auto !important;
+	padding: 0 14.8px;
+	font-size: 16px;
+}
+
+.apptheme .app-shell[width-range~="-600px"] .logo, .apptheme .app-shell[width-range~="-600px"]  .v-caption-logo {
+	max-width: 150px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.apptheme .app-shell[width-range~="-600px"] .v-caption-logo {
+	float: left;
+}
+
+.apptheme .app-shell[width-range~="601px-"] .activeViewName {
+	display: none;
+}
+
+.apptheme .app-shell[width-range~="601px-"] .v-caption-logo {
+	display: block;
+	text-align: center;
+}
+
+.apptheme .app-shell[width-range~="601px-"] .navigation-bar-container {
+	background-image: linear-gradient(145deg, #484962 30%, #d06b41 100%);
+}
+
+.apptheme .app-shell[width-range~="601px-"] .navigation-bar {
+	background-color: transparent;
+}
+
+.apptheme .app-shell[width-range~="601px-"] .navigation {
+	background-color: transparent;
+	border: none;
+}
+
+.apptheme .app-shell[width-range~="1001px-"] .navigation-bar {
+	background-image: url('bg.jpg');
+}
+
 .apptheme .v-errorindicator {
 	display: none;
 }
@@ -13163,17 +13231,4 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-osx-font-smoothing: grayscale;
 	display: inline-block;
 	text-align: center;
-}
-
-.apptheme .ynavigation-bar-container {
-	background-image: linear-gradient(145deg, #484962 30%, #d06b41 100%);
-}
-
-.apptheme .ynavigation-bar {
-	background-color: transparent;
-}
-
-.apptheme .ynavigation {
-	background-color: transparent;
-	border: none;
 }

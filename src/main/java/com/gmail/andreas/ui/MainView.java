@@ -71,12 +71,12 @@ public class MainView extends HorizontalLayout implements ViewDisplay {
 
 	public void setUp() {
 		naviBarContainer = new CssLayout();
-		naviBarContainer.setStyleName("ynavigation-bar-container");
+		naviBarContainer.setStyleName("navigation-bar-container");
 		naviBarContainer.setWidth("200px");
 		naviBarContainer.setHeight("100%");
 
 		naviBar = new CssLayout();
-		naviBar.setStyleName("ynavigation-bar");
+		naviBar.setStyleName("navigation-bar");
 		naviBar.setWidth("100%");
 		naviBar.setHeight("100%");
 
@@ -97,7 +97,7 @@ public class MainView extends HorizontalLayout implements ViewDisplay {
 		menuButton.setHeight("-1px");
 
 		menu = new CssLayout();
-		menu.setStyleName("ynavigation");
+		menu.setStyleName("navigation");
 		menu.setWidth("100%");
 		menu.setHeight("-1px");
 
@@ -141,7 +141,7 @@ public class MainView extends HorizontalLayout implements ViewDisplay {
 		naviBarContainer.addComponent(naviBar);
 		addComponents(naviBarContainer, content);
 
-		setStyleName("app-shell");
+		setStyleName("my_app-shell");
 		setWidth("100%");
 		setHeight("100%");
 		setMargin(false);

@@ -45,7 +45,7 @@ $app-background-image: url('bg.jpg');
   @include ordersgrid;
   @include ordersview;
   @include dashboardview;
-  //@include menu;
+  @include menu;
 
   .v-errorindicator {
     // Only show validation errors using field styles
@@ -60,14 +60,4 @@ $app-background-image: url('bg.jpg');
     display: inline-block;
     text-align: center;
   }
-        .ynavigation-bar-container {
-          background-image: $app-background-gradient;
-        }
-        .ynavigation-bar {
-          background-color: transparent;
-        }
-        .ynavigation {
-          background-color: transparent;
-          border: none;
-        }
 }
